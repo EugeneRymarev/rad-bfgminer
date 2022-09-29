@@ -1147,7 +1147,7 @@ else
 fi
 
 
-BFG_BUNDLED_LIB([libbase58],[libbase58],[auto],[libbase58],[base58],[],[--disable-tool --disable-static --enable-shared])
+BFG_BUNDLED_LIB([libbase58],[libbase58],[auto],[libbase58],[base58],[],[--disable-tool --enable-static --enable-shared])
 BFG_BUNDLED_LIB([libblkmaker],[libblkmaker_jansson-0.1],[no],[libblkmaker],[blkmaker_jansson-0.1 blkmaker-0.1],[libbase58])
 
 
